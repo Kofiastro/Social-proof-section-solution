@@ -16,7 +16,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![](./assets/images/results.png)
+![](./images/social.png)
 
 ### Links
 
