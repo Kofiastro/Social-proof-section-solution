@@ -722,8 +722,8 @@ body{
 @media(max-width:576px){
   body{
     background-image:url('../images/bg-pattern-top-mobile.svg'),url('../images/bg-pattern-bottom-mobile.svg');
-    background-position:left top,right bottom;
-    background-size:contain,contain;
+    background-position:left top,right top;
+    background-size:auto,cover;
   }
 }
 
@@ -747,10 +747,6 @@ body{
     margin-left: -5rem;
   }
 
-  .md\:-ml-36 {
-    margin-left: -9rem;
-  }
-
   .md\:mt-10 {
     margin-top: 2.5rem;
   }
@@ -765,10 +761,6 @@ body{
 
   .md\:max-w-md {
     max-width: 28rem;
-  }
-
-  .md\:max-w-xs {
-    max-width: 20rem;
   }
 
   .md\:flex-row {
