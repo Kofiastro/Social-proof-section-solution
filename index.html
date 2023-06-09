@@ -1,61 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <title>Frontend Mentor | Social proof section</title>
+</head>
 
-    <title>Frontend Mentor | Social proof section</title>
+<body>
+  <main>
+    <!--Content Section-->
+    <section id="Content Section">
+      <div class="mx-w-6xl mx-4 text-center px-2 mt-12 md:my-32 md:mx-60">
+        <!--Header Section-->
+        <!--************************-->
+        <div class="flex flex-col justify-center md:flex-row md:justify-between  ">
+          <div class="font-spartan space-y-4 px-2 text-center md:text-left md:max-w-md ">
+            <h1 class="text-4xl font-bold leading-8 text-VeryDarkMagenta md:text-6xl  md:tracking-tight">
+              10,000+ of our users love our products.
+            </h1>
+            <p class="text-md tracking-wider text-DarkGrayishMagenta md:text-xl md:tracking-tight">
+              We only provide great products combined with excellent customer service. See what our satisfied customers
+              are saying about our services.
+            </p>
+          </div>
+          
+          <!--Rating Section-->
+          <div class="my-3.5 font-spartan space-y-3.5 md:w-1/3 md:mt-10 ">
+            <!--card1 -->
+            <div class="p-2 rounded-lg space-y-2 bg-LightGrayishMagenta md:flex md:justify-center md:max-w-md md:space-x-3 md:-ml-36 ">
+              <div class="flex justify-center space-x-2 items-center ">
+                <img src="./images/icon-star.svg" alt=""> <img src="./images/icon-star.svg" alt=""><img
+                  src="./images/icon-star.svg" alt=""><img src="./images/icon-star.svg" alt=""><img
+                  src="./images/icon-star.svg" alt="">
+              </div>
+              <div class="text-center text-VeryDarkMagenta font-bold text-md">
+                Rated 5 Stars in Reviews
+              </div>
+            </div>
+            <!--Card 2-->
+            <div class="p-2 rounded-lg space-y-2 bg-LightGrayishMagenta md:flex md:justify-center md:max-w-md  md:space-x-3 md:-ml-20">
+              <div class="flex justify-center space-x-2 items-center ">
+                <img src="./images/icon-star.svg" alt=""> <img src="./images/icon-star.svg" alt=""><img
+                  src="./images/icon-star.svg" alt=""><img src="./images/icon-star.svg" alt=""><img
+                  src="./images/icon-star.svg" alt="">
+              </div>
+              <div class="text-center text-VeryDarkMagenta font-bold text-md">
+                Rated 5 Stars in Report Guru
+              </div>
+            </div>
+            <!--Card 3 -->
+            <div class="p-2 rounded-lg space-y-2 bg-LightGrayishMagenta md:flex md:justify-center md:max-w-md  md:space-x-3 2 md:-mr-30">
+              <div class="flex justify-center space-x-2 items-center ">
+                <img src="./images/icon-star.svg" alt=""> <img src="./images/icon-star.svg" alt=""><img
+                  src="./images/icon-star.svg" alt=""><img src="./images/icon-star.svg" alt=""><img
+                  src="./images/icon-star.svg" alt="">
+              </div>
+              <div class="text-center text-VeryDarkMagenta font-bold text-md">
+                Rated 5 Stars in BestTech
+              </div>
+            </div>
+          </div>
+          <!--End of Header container-->
+          <!--************************-->
+        </div>
+        <!--Testimonial Card Section-->
+        <!--************************-->
+        <div class="my-12 flex flex-col justify-center font-spartan space-y-3.5 md:flex-row md:items-baseline md:justify-between ">
+          <!--card1 -->
+          <div class="p-10 rounded-lg space-y-4 bg-VeryDarkMagenta md:max-w-md  md:py-12">
+            <div class="flex space-x-4   ">
+              <img src="./images/image-colton.jpg" class="rounded-full h-10 w-10" alt="">
+              <div class="tracking-wide text-center">
+                <h1 class="text-white font-semibold">
+                  Colton Smith
+                </h1>
+                <p class="text-SoftPink">Verified Buyer</p>
+              </div>
+            </div>
+            <div class="text-left text-white font-medium md:max-w-xs ">
+              <p>
+                “ We needed the same printed design as the one we had ordered a week prior. Not only did they find the
+                original order, but we also received it in time. Excellent! ”
+              </p>
+            </div>
+          </div>
+          <!--Card 2-->
+          <div class="p-10 rounded-lg space-y-4 bg-VeryDarkMagenta md:mx-6 md:max-w-md md:pt-5 md:py-20 ">
+            <div class="flex space-x-4 ">
+              <img src="./images/image-irene.jpg" class="rounded-full h-10 w-10" alt="">
+              <div class="tracking-wide  text-center">
+                <h1 class="text-white font-semibold">
+                  Irene Roberts
+                </h1>
+                <p class="text-SoftPink">Verified Buyer</p>
+              </div>
+            </div>
+            <div class="text-left text-white font-medium md:max-w-xs ">
+              <p>
+                “ Customer service is always excellent and very quick turn around. Completely delighted with the
+                simplicity of the purchase and the speed of delivery.”
+              </p>
+            </div>
+          </div>
+          <!--Card 3 -->
+          <div class="p-10 rounded-lg space-y-4 bg-VeryDarkMagenta md:max-w-md md:pt-2 md:py-24 ">
+            <div class="flex space-x-4 ">
+              <img src="./images/image-anne.jpg" class="rounded-full h-10 w-10" alt="">
+              <div class="tracking-wide  text-center">
+                <h1 class="text-white font-semibold">
+                  Colton Smith
+                </h1>
+                <p class="text-SoftPink">Verified Buyer</p>
+              </div>
+            </div>
+            <div class="text-left text-white font-medium md:max-w-xs  ">
+              <p>
+                “ Put an order with this company and can only praise them for the very high standard. Will definitely
+                use them again and recommend them to everyone! ”
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--End of Testimonial Card Section-->
+        <!--************************-->
+      </div>
+    </section>
+  </main>
+  <footer class=" mt-24 font-spartan bg-cream  text-xs text-center">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" class="text-blue-500" target="_blank">Frontend Mentor</a>.
+    Coded
+    by
+    <a href="https://github.com/Kofiastro/" class="text-blue-500" target="_blank">Kofi Danso Amakye </a>.
+  </footer>
+</body>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-  </head>
-  <body>
-    10,000+ of our users love our products.
-
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
-  </body>
 </html>
