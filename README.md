@@ -2,10 +2,6 @@
 
 This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-# Frontend Mentor - Results summary component solution
-
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -24,8 +20,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [(https://github.com/Kofiastro/results-Components-Project)]
-- Live Site URL:[(https://vermillion-stardust-00e266.netlify.app/)]
+- Solution URL: [(https://github.com/Kofiastro/Social-proof-section-solution)]
+- Live Site URL:[(https://poetic-paletas-7d009c.netlify.app/)]
 
 ## My process
 Using Tailwindcss i have been able to work on designs much faster and i want to learn more by working on more projects at frontendmentor to help me be good at it.
