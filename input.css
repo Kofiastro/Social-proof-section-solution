@@ -6,12 +6,12 @@ body{
     background-image:url('../images/bg-pattern-top-desktop.svg'),url('../images/bg-pattern-bottom-desktop.svg');
     background-repeat:no-repeat ,no-repeat;
     background-position:left top,right bottom;
-    background-size:40%,70%;
+    background-size:40%,80%;
 }
 @media(max-width:576px){
 body{
     background-image:url('../images/bg-pattern-top-mobile.svg'),url('../images/bg-pattern-bottom-mobile.svg');
-    background-position:left top,right top;
-    background-size:auto,cover;
+    background-position:left top,right botom;
+    background-size:auto,auto;
 }
 }
